@@ -7,7 +7,7 @@ The app downloads these files itself when a user taps **Download** in Settings â
 |---|---|---|
 | `supertonic-helper-arm64` | Small synthesis helper (ONNX Runtime) for the "Better voice" tier. Based on the MIT-licensed example code of [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic). | ~32 MB |
 | `tone-converter.onnx` | Tone-color converter exported to ONNX from [OpenVoice v2](https://github.com/myshell-ai/OpenVoice) (MIT). Gives the "Better voice" tier its 22 Korean voices. | ~128 MB |
-| `rollcall-voice-runtime-arm64.tgz` | Self-contained Python runtime ([python-build-standalone](https://github.com/astral-sh/python-build-standalone)) + MLX + a local-only voice bridge (`127.0.0.1`) for the "High-quality voice" tier, plus 22 Korean sample voices. | ~150 MB |
+| `rollcall-voice-runtime-arm64.tgz` | Self-contained Python runtime ([python-build-standalone](https://github.com/astral-sh/python-build-standalone)) + MLX + a local-only voice bridge (`127.0.0.1`) for the "High-quality voice" tier, plus 22 Korean sample voices. The bridge is a minimal local-only server written for Rollcall (127.0.0.1, per-start token, refuses browser requests). | ~150 MB |
 
 Model weights (Supertonic 3, Qwen3-TTS) are **not** hosted here. The app downloads them directly from Hugging Face.
 

@@ -1,3 +1,3 @@
-b9be4002c8623d4c1b8b3104540b638184e1d4874fa9be180450c43779364b3c  rollcall-voice-runtime-arm64.tgz
+db074d70afde7bbd7af747285f6de4d66db01a3a7bfc8aee3c3d78f8b12f5e3f  rollcall-voice-runtime-arm64.tgz
 587e746ceefb07205bc62611fe78c181a8dcba6c2b89a302d89ba00077f01f80  supertonic-helper-arm64
 e536e8a5c99b6b6d8d5d14afa9f7f84480588c21a434b1f299194eb9a5668678  tone-converter.onnx
